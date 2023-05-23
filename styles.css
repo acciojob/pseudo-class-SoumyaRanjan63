@@ -2,10 +2,13 @@
 div{
 	display:flex;
 }
+.main{
+	color:black;
+}
 .Before{
-	color:rgb(0,0,0);
+	color:red;
 }
 .After{
-	color:rgb(0,0,0);
+	color:red;
 }
 
