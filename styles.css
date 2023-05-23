@@ -1,14 +1,18 @@
-/*  your css code here. If applicable */
-div{
-	display:flex;
-}
-.main{
-	color:black;
-}
-.Before{
-	color:rgb(255, 0, 0);
-}
-.After{
-	color:rgb(255, 0, 0);
+.main {
+    color: black;
+    position: relative;
 }
 
+.main::before {
+    content: "Before Element";
+    color: rgb(255, 0, 0);
+/*     position: absolute;
+    left: 0px; */
+}
+
+.main::after {
+    content: "After Element";
+    color: rgb(255, 0, 0);
+/*     position: absolute;
+    right: -100px; */
+}
