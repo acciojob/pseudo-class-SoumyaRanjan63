@@ -1,13 +1,13 @@
-.main::before {
+.main:before {
     content: "Before Element";
     color: rgb(255, 0, 0);
-    position: absolute;
-    left: -110px;
+/*     position: absolute;
+    left: -110px; */
 }
 
-.main::after {
+.main:after {
     content: "After Element";
     color: rgb(255, 0, 0);
-    position: absolute;
-    right: -100px;
+/*     position: absolute;
+    right: -100px; */
 }
